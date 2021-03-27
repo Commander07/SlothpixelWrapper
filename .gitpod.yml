@@ -2,5 +2,5 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: pip install flask
+  - init: pip install requests
     command: python main.py
